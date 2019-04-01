@@ -1,5 +1,173 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title>THE QUEEN PROTECTS</title>
+	<link href="css.css" rel="stylesheet" type="text/css">
+	<script>
+	var looper;
+	var degrees = 0;
+	function rotateAnimation(el,speed){
+		var elem = document.getElementById(el);
+		elem.style.transform ="rotate("+degrees+"deg)";
+		looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+		degrees++;
+		if(degrees > 395){
+			degrees = 1;
+		}
+		document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+	}
+	</script>
+	</head>
+	<body style="background-color:red;>
 
-ok 
-so 
-might
-work
+	<h1 style="color:blue;">THIS IS AN AWARENESS WEBSITE OF THE ANIMALS THE QUEEN OWNS. ALSO WHAT SHE LIKES AND SOME BRITISH STUFF ON THE SIDE </h1>
+	<img src="pic/queen.jpg" alt="Y it not work" width="2000" height="400"> 
+	
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/so0DwBoZT0Y?autoplay=1" alt="doesnt work">
+	</iframe>
+	<iframe width="420" height="315"src="https://www.youtube.com/embed/Rx2Jhv436nw?loop=1">
+	</iframe>
+	<img id="swan1" src="pic/swan1.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan1",2); </script>
+	<img id="swan2" src="pic/swan2.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan2",4); </script>
+	<img id="swan3" src="pic/swan3.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan3",6); </script>
+	<img id="swan4" src="pic/swan4.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan4",8); </script>
+	<img id="swan5" src="pic/swan5.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan5",10); </script>
+	<img id="swan6" src="pic/swan6.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan6",12); </script>
+	<img id="swan7" src="pic/swan7.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan7",14); </script>
+	<img id="swan8" src="pic/swan8.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan8",16); </script>
+	<img id="swan9" src="pic/swan9.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan9",18); </script>
+	<img id="swan10" src="pic/swan10.jpg" alt="swan doesnt work">
+	<script>rotateAnimation("swan10",20); </script>
+	
+	<marquee behavior="alternate">
+	<img src="pic/m.jpg" width="150" height="108" alt="Marmite">
+	</marquee>
+	<marquee behavior="alternate">
+	<img src="pic/m.jpg" width="3000" height="108" alt="Marmite">
+	</marquee>
+	
+	
+	<img id="se" src="pic/se.jpg" alt="doge doesnt work">
+	<script>rotateAnimation("se",6); </script>
+
+	
+	<img id="corgi" src="pic/corgi.jpg" alt="doge doesnt work">
+	<script>rotateAnimation("corgi",6); </script>
+	<img id="c2" src="pic/c2.jpg" alt="doge doesnt work">
+	<script>rotateAnimation("c2",9); </script>
+	<img id="c3" src="pic/c3.jpg" alt="doge doesnt work">
+	<script>rotateAnimation("c3",12); </script>
+	<img id="c4" src="pic/c4.jpg" alt="doge doesnt work">
+	<script>rotateAnimation("c4",15); </script>
+	
+	<img id="cbeb" src="pic/cbeb.jpg" alt="cbeb doesnt work">
+	<script>rotateAnimation("cbeb",60); </script>
+	
+	<img id="brush" src="pic/brush.jpg" alt="brush doesnt work">
+	<script>rotateAnimation("brush",60); </script>
+	
+	<marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+		<marquee behavior="alternate">WOWOWOWOWOW</marquee>
+	</marquee>
+	<h2 id=head>gOd SaVe ThE qUeEn </h2>
+	<marquee id ="jam" behavior="alternate">God save our gracious Queen!
+Long live our noble Queen!
+God save the Queen!
+Send her victorious,
+Happy and glorious,
+Long to reign over us:
+God save the Queen!
+
+O Lord our God arise,
+Scatter her enemies,
+And make them fall:
+Confound their politics,
+Frustrate their knavish tricks,
+On Thee our hopes we fix:
+God save us all.
+
+Thy choicest gifts in store,
+On her be pleased to pour;
+Long may she reign:
+May she defend our laws,
+And ever give us cause,
+To sing with heart and voice,
+God save the Queen!</marquee>
+
+	<marquee behavior="alternate">
+	<img src="pic/house.jpg" width="300" height="216" alt="Hmmmm">
+	</marquee>
+	
+	
+	<h3 id="event" onclick="testFunction()">dO u Be eNtErTaIn?</h3>
+	
+		<script>
+			var colourPointer = 0;
+			var colours = ["BlueViolet", "CornflowerBlue", "blue", "SteelBlue", "orange", "GoldenRod"];
+			
+			document.body.onkeyup = function(e){
+			// When enter key pressed
+			if(e.keyCode == 71){
+				document.getElementById("head").innerHTML = "WHATS GOING ON MY DUDES";
+			}
+			else if (e.keyCode == 49){
+				document.getElementById("time").innerHTML = "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET";
+			}}
+			
+			function testFunction()
+			{
+				document.getElementById("event").style.color = colours[colourPointer];
+				
+				colourPointer++;
+				
+				if(colourPointer == colours.length)
+				{
+					colourPointer = 0;
+				}
+			}
+		</script>
+	<p id=time>dO u Be eNtErTaIn?</p>
+	<div class="flip-box">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="pic/bean.jpg" alt="bean" style="width:300px;height:200px">
+    </div>
+		<div class="flip-box-back">
+      <h2>OOOOOOOOOOOOOOOOOOOOOOOOOOF</h2>
+      <p>wHAT A gUY</p>
+    </div>
+  </div>
+</div>
+	<h4 id=reverse onclick="humFunction()">Press this for fun times</h4>
+	<script>
+	if (e.keycode == 73){
+		}
+	</script
+	
+	</body>
+</html>
